@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cherry's</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: rgb(172, 34, 34);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: lavender;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: rgb(240, 128, 128);
+        }
+
+        .ativo {
+            background-color: lightpink;
+        }
+
+        .direita {
+            float: right;
+        }
+
+        body {
+            background-color: rgb(245, 215, 215);
+        }
+
+        h1 {
+            color: red;
+            margin-left: 10px;
+        }
+
+        h2, h4{
+            margin-left: 10px;
+        }
+
+        p{
+            margin-left: 10px;
+        }
+
+        a {
+            color: rgb(172, 34, 34);
+        }
+
+        img {
+            width: 250px;
+            height: 200px;
+            margin-left: 10px;
+        }
+
+        form{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#produtos">produtos</a></li>
+        <li><a href="#servicos">serviços</a></li>
+        <li><a href="#monte seu pedido">monte seu pedido</a></li>
+    </ul>
+    <br>
+    <h1>Seja bem-vindo a sweet cherry's</h1>
+    <br>
+    <h2>Aqui temos uma grande variedade de produtos, com ingredientes selecionados para a melhor qualidade:</h2>
+    <br>
+    <h2>Principais produtos:</h2>
+    <p>- brigadeiros gourmet - R$3,00 unid.</p>
+    <p>- tortas - R$10,00 a fatia</p>
+    <p>- bolos - R$10,00 o pedaço</p>
+    <p>- mousse - R$5,00</p>
+    <P>- cupcakes - R$8,00</P>
+    <P>- macarons - R$5,00</P>
+    <p>- pastéis doces - R$7,00</p>
+    <br>
+    <img src="cupcakes.jpg">
+    <img src="macarons.jpg">
+    <img src="tortas.jpg">
+    <img src="brigadeiro.jpg">
+    <img src="bolos.jpg">
+    <br>
+    <br>
+    <h4>Fale conosco</h4>
+    <p> (88)8888-8888</p>
+    <h4>Endereço</h4>
+    <p>Rua cerejeira, 123</p>
+    <br>
+    <h4>Faça seu pedido:</h4>
+    <form>
+        <label for="txt-index">Nome:</label>
+        <input type="text" id="txt-index"><br><br>
+        <label for="nbr-index">Número:</label>
+        <input type="number" id="nbr-index"><br><br>
+        <label for="txt-longo">Seu pedido:</label>
+        <textarea id="txt-longo" rows="1" cols="17"></textarea><br><br>
+        <input type="submit" value="Enviar"><br><br>
+    </form>
+</body>
